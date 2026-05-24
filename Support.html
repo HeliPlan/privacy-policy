@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — HeliPlan</title>
+<style>
+  :root {
+    --ink: #1a1f24;
+    --muted: #5a6470;
+    --line: #e3e7ec;
+    --accent: #2f6f8f;
+    --bg: #fbfcfd;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    font-size: 17px;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 22px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 1.15;
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  .contact {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    border-radius: 8px;
+    padding: 22px 24px;
+    margin: 0 0 44px;
+    font-size: 16px;
+  }
+  .contact a { font-weight: 600; }
+  h2 {
+    font-size: 21px;
+    margin: 44px 0 14px;
+    letter-spacing: -0.01em;
+  }
+  p { margin: 0 0 16px; }
+  ul { margin: 0 0 16px; padding-left: 22px; }
+  li { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  .faq dt { font-weight: 600; margin: 22px 0 6px; }
+  .faq dd { margin: 0 0 4px; color: var(--ink); }
+  .note {
+    background: #fff8ec;
+    border: 1px solid #f0e2c4;
+    border-radius: 8px;
+    padding: 14px 18px;
+    font-size: 14.5px;
+    color: #6b5722;
+    margin: 24px 0 0;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 14px;
+  }
+  @media (max-width: 540px) {
+    .wrap { padding: 40px 18px 72px; }
+    h1 { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Support</p>
+    <h1>HeliPlan</h1>
+    <p class="meta">Help, questions, and feedback</p>
+  </header>
+
+  <div class="contact">
+    The best way to reach us is by email at
+    <a href="mailto:heliplan@pm.me">heliplan@pm.me</a>.
+    We read every message and aim to reply within a few business days.
+  </div>
+
+  <h2>Common questions</h2>
+  <dl class="faq">
+    <dt>The app can't find my location or weather.</dt>
+    <dd>
+      HeliPlan looks up weather and elevation from public aviation and weather
+      services over the internet. Make sure you have a connection. If a place
+      name doesn't resolve, try an airport identifier or coordinates instead.
+    </dd>
+
+    <dt>How do I let the app use my current location?</dt>
+    <dd>
+      Tap the location button in the app. If you previously declined, enable
+      location access for HeliPlan in your device's Settings under Privacy &
+      Location Services. You can always enter locations manually instead.
+    </dd>
+
+    <dt>Is my data stored anywhere?</dt>
+    <dd>
+      Everything you enter stays on your device. There are no accounts and
+      nothing is uploaded to us. See our
+      <a href="privacy-policy.html">Privacy Policy</a> for details.
+    </dd>
+
+    <dt>Where do the per-diem rates come from?</dt>
+    <dd>
+      Lodging and meal rates come from the U.S. GSA and require an API key you
+      add in Settings. Without a key, the rest of the app works normally.
+    </dd>
+
+    <dt>I found a bug or have a feature request.</dt>
+    <dd>
+      Please email us with as much detail as you can — what you were doing, what
+      you expected, and what happened. Reports genuinely help.
+    </dd>
+  </dl>
+
+  <h2>A reminder about use</h2>
+  <p>
+    HeliPlan is a planning and reference aid, not a substitute for approved
+    aircraft documentation, official weather sources, or your own training and
+    judgment. Always cross-check every figure before flight. The pilot in
+    command is solely responsible for the safe conduct of every flight.
+  </p>
+
+  <footer>
+    HeliPlan — Support
+  </footer>
+
+</div>
+</body>
+</html>
