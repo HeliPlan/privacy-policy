@@ -115,14 +115,17 @@
   <header>
     <p class="eyebrow">Privacy Policy</p>
     <h1>HeliPlan</h1>
-    <p class="meta">Last updated: May 23, 2026</p>
+    <p class="meta">Last updated: June 27, 2026</p>
   </header>
 
   <div class="summary">
     <strong>The short version:</strong> This app does not collect, store, or share
-    any personal information. Everything you enter stays on your device. The only
-    information that ever leaves your device is a location you ask about (or your
-    current location, if you tap the location button), which is sent to public
+    any personal information. We operate no servers and never receive your data.
+    What you enter stays on your device — with one exception: your aircraft, bucket,
+    and equipment libraries sync across your own devices through your private iCloud
+    account, which is handled entirely by Apple and never reaches us. The only
+    information that leaves your device for a lookup is a location you ask about (or
+    your current location, if you tap the location button), which is sent to public
     weather and mapping services purely to look up elevation, temperature, weather,
     and place names. We never receive, store, or sell that information, and it is
     not tied to your identity.
@@ -143,7 +146,10 @@
   <p>
     Information you enter into the App — such as aircraft details, mission inputs,
     settings, your pilot signature, and any API key you choose to add — is stored
-    only locally on your device. We have no access to it.
+    on your device. Your aircraft, bucket, and equipment libraries are additionally
+    synced through your own private iCloud account so they stay consistent across
+    the Apple devices you sign in with (see <a href="#storage">Data storage and
+    retention</a> below). In every case we have no access to any of it.
   </p>
 
   <h2>Location information</h2>
@@ -187,8 +193,8 @@
       </tr>
       <tr>
         <td>Aviation Weather Center (aviationweather.gov)</td>
-        <td>An area around the coordinates</td>
-        <td>METAR reports and flight category</td>
+        <td>An area around the coordinates, for METAR/TAF lookups; nothing location-specific for winds aloft</td>
+        <td>METAR and TAF reports, flight category, and winds-aloft forecasts</td>
       </tr>
       <tr>
         <td>Open-Meteo (open-meteo.com)</td>
@@ -206,12 +212,31 @@
     We encourage you to review these providers' privacy policies. We share only
     what is necessary to perform the requested lookup and nothing that identifies you.
   </p>
+  <div class="note">
+    Winds-aloft forecasts are retrieved by downloading a single nationwide dataset
+    and selecting the relevant data on your device. Your specific location is
+    <em>not</em> sent to the Aviation Weather Center for that lookup.
+  </div>
 
-  <h2>Data storage and retention</h2>
+  <h2 id="storage">Data storage and retention</h2>
   <p>
-    All of your data lives on your device. We do not back it up, sync it, or
-    transmit it to us. Deleting the App from your device permanently removes all
-    of the data it stored.
+    Most of your data lives only on your device. The exception is your aircraft,
+    bucket, and equipment libraries, which the App syncs through Apple's iCloud
+    key-value storage so they stay consistent across the Apple devices signed in to
+    your iCloud account.
+  </p>
+  <p>
+    That sync uses your own private iCloud storage and is handled entirely by Apple
+    under your Apple ID. We operate no servers, we receive none of this data, and we
+    cannot see it. Apple's handling of iCloud data is governed by
+    <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. You
+    can turn the sync off at any time by disabling iCloud for the App in your device
+    settings, or by signing out of iCloud.
+  </p>
+  <p>
+    Deleting the App from your device permanently removes the data stored locally on
+    that device. Any libraries already synced to iCloud remain in your iCloud account
+    and can be removed through your device's iCloud settings.
   </p>
 
   <h2>Children's privacy</h2>
