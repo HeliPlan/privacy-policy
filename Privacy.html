@@ -115,7 +115,7 @@
   <header>
     <p class="eyebrow">Privacy Policy</p>
     <h1>HeliPlan</h1>
-    <p class="meta">Last updated: June 27, 2026</p>
+    <p class="meta">Last updated: July 13, 2026</p>
   </header>
 
   <div class="summary">
@@ -127,8 +127,8 @@
     information that leaves your device for a lookup is a location you ask about (or
     your current location, if you tap the location button), which is sent to public
     weather and mapping services purely to look up elevation, temperature, weather,
-    and place names. We never receive, store, or sell that information, and it is
-    not tied to your identity.
+    and place names, and to display the map around your route. We never receive, 
+    store, or sell that information, and it is not tied to your identity.
   </div>
 
   <p>
@@ -145,11 +145,12 @@
   </p>
   <p>
     Information you enter into the App - such as aircraft details, mission inputs,
-    settings, your pilot signature, and any API key you choose to add - is stored
-    on your device. Your aircraft, bucket, and equipment libraries are additionally
-    synced through your own private iCloud account so they stay consistent across
-    the Apple devices you sign in with (see <a href="#storage">Data storage and
-    retention</a> below). In every case we have no access to any of it.
+    settings, your pilot signature, optional copies of exported load calculations,
+    and any API key you choose to add - is stored on your device. Your aircraft, 
+    bucket, and equipment libraries are additionally synced through your own private 
+    iCloud account so they stay consistent across the Apple devices you sign in with 
+    (see <a href="#storage">Data storage and retention</a> below). In every case 
+    we have no access to any of it.
   </p>
 
   <h2>Location information</h2>
@@ -157,7 +158,8 @@
     The App can use a location in two ways: a place, airport, or coordinates you
     type in, or your device's current location if you tap the current-location
     button. Location is used to look up local elevation, temperature, weather, and
-    flight conditions, and to calculate distances for your route.
+    flight conditions, to calculate distances for your route, and to display 
+    your route on the map.
   </p>
   <p>
     To perform those lookups, the relevant coordinates (or the city and state
@@ -183,8 +185,13 @@
     <tbody>
       <tr>
         <td>Apple Geocoding</td>
-        <td>Coordinates</td>
-        <td>Convert coordinates to a city/state and time zone</td>
+        <td>Coordinates, or a place name you type</td>
+        <td>Convert between coordinates and a city/state; time zone lookup</td>
+      </tr>
+      <tr>
+        <td>Apple Maps</td>
+        <td>The map region being viewed</td>
+        <td>Display map and satellite imagery on the map screen</td>
       </tr>
       <tr>
         <td>National Weather Service (weather.gov)</td>
@@ -212,6 +219,12 @@
     We encourage you to review these providers' privacy policies. We share only
     what is necessary to perform the requested lookup and nothing that identifies you.
   </p>
+  <p>
+    If you choose "Send to ForeFlight," your route (airport identifiers and
+    coordinates) is handed directly to the ForeFlight app on your device. Nothing
+    is sent over the internet by our App; once received, the route is handled by
+    ForeFlight under its own privacy policy.
+  </p>
   <div class="note">
     Winds-aloft forecasts are retrieved by downloading a single nationwide dataset
     and selecting the relevant data on your device. Your specific location is
@@ -232,6 +245,12 @@
     <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. You
     can turn the sync off at any time by disabling iCloud for the App in your device
     settings, or by signing out of iCloud.
+  </p>
+  <p>
+    If you turn on export history, a copy of each exported load calculation
+    (including your signature) is kept on your device for up to 180 days so you
+    can reprint it. These copies are stored only in the App, are excluded from
+    device backups, and can be deleted at any time from the export history list.
   </p>
   <p>
     Deleting the App from your device permanently removes the data stored locally on
