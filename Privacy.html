@@ -115,7 +115,7 @@
   <header>
     <p class="eyebrow">Privacy Policy</p>
     <h1>HeliPlan</h1>
-    <p class="meta">Last updated: July 16, 2026</p>
+    <p class="meta">Last updated: September 21, 2026</p>
   </header>
 
   <div class="summary">
@@ -127,7 +127,7 @@
     information that leaves your device for a lookup is a location you ask about (or
     your current location, if you tap the location button), which is sent to public
     weather and mapping services purely to look up elevation, temperature, weather,
-    and place names, and to display the map and its optional radar overlay around 
+    winds aloft, and place names, and to display the map and its optional radar overlay around 
     your route. We never receive, store, or sell that information, and it is not 
     tied to your identity.
   </div>
@@ -158,9 +158,9 @@
   <p>
     The App can use a location in two ways: a place, airport, or coordinates you
     type in, or your device's current location if you tap the current-location
-    button. Location is used to look up local elevation, temperature, weather, and
-    flight conditions, to calculate distances for your route, and to display 
-    your route on the map.
+    button. Location is used to look up local elevation, temperature, weather,
+    flight conditions, and winds aloft along your route, to calculate distances 
+    for your route, and on the map.
   </p>
   <p>
     To perform those lookups, the relevant coordinates (or the city and state
@@ -201,7 +201,7 @@
       </tr>
       <tr>
         <td>Aviation Weather Center (aviationweather.gov)</td>
-        <td>An area around the coordinates, for METAR/TAF lookups; nothing location-specific for winds aloft</td>
+        <td>Airport identifiers, or an area around the coordinates, for METAR/TAF lookups; for winds aloft, only a broad forecast region spanning several states</td>
         <td>METAR and TAF reports, flight category, and winds-aloft forecasts</td>
       </tr>
       <tr>
@@ -211,12 +211,12 @@
       </tr>
       <tr>
         <td>Open-Meteo (open-meteo.com)</td>
-        <td>Coordinates</td>
-        <td>Ground elevation</td>
+        <td>Coordinates of your stops, and points along your route rounded to about 15 miles</td>
+        <td>Ground elevation and winds aloft</td>
       </tr>
       <tr>
         <td>U.S. GSA (gsa.gov)</td>
-        <td>City and state</td>
+        <td>City and state, and the API key you added in Settings</td>
         <td>Per-diem lodging and meal rates</td>
       </tr>
     </tbody>
@@ -232,9 +232,11 @@
     ForeFlight under its own privacy policy.
   </p>
   <div class="note">
-    Winds-aloft forecasts are retrieved by downloading a single nationwide dataset
-    and selecting the relevant data on your device. Your specific location is
-    <em>not</em> sent to the Aviation Weather Center for that lookup.
+    Winds aloft come primarily from Open-Meteo, which receives points along your
+    route rounded to about 15 miles. Where that is unavailable, the App falls back
+    to the Aviation Weather Center's winds-aloft forecast, downloading it for a broad
+    multi-state region and selecting the relevant data on your device. Your specific
+    location is <em>not</em> sent to the Aviation Weather Center for that lookup.
   </div>
 
   <h2 id="storage">Data storage and retention</h2>
