@@ -1,0 +1,115 @@
+build_geo.py
+  built       2026-09-22 17:13 UTC, Python 3.14.6
+  zones       timezone-boundary-builder 2025d, combined-with-oceans.json
+              sha256 3d50aea910ecad1b6d3a614b44a1115687f98a479c2a78969eddce28b60e816f
+  counties    sha256 7d9e401eca52d92a0c6ddc088ab46b518cbd3f654af960b66083b11f00ca5bc9  us_counties.txt
+              sha256 395ba4cf35650dc8192041f34ab35fd09ca99bbdf063bf9dc69906473418888b  us_county_shapes.bin
+  clocks      system 2026c; 'same clocks' judged over 12 years from the build date
+  settings    cell 0.005 deg, margin 0.02 deg, simplify 0.0002 deg, border 1.0 km (2 cells)
+
+
+us_county_shapes.bin   1,225,058 bytes  (was 2,526,536)
+us_tz_shapes.bin         121,178 bytes  253 overrides, 275 rings, 32,167 points
+
+TZ column: 37 changed, 5 with different clocks:
+  04001 Apache County, AZ: America/Phoenix -> America/Denver
+  12045 Gulf County, FL: America/New_York -> America/Chicago
+  31031 Cherry County, NE: America/Chicago -> America/Denver
+  38085 Sioux County, ND: America/Denver -> America/Chicago
+  47007 Bledsoe County, TN: America/New_York -> America/Chicago
+  (same clocks) 02100 Haines Borough, AK: America/Anchorage -> America/Juneau
+  (same clocks) 02105 Hoonah-Angoon Census Area, AK: America/Anchorage -> America/Juneau
+  (same clocks) 02110 Juneau City and Borough, AK: America/Anchorage -> America/Juneau
+  (same clocks) 02130 Ketchikan Gateway Borough, AK: America/Anchorage -> America/Sitka
+  (same clocks) 02158 Kusilvak Census Area, AK: America/Anchorage -> America/Nome
+  (same clocks) 02180 Nome Census Area, AK: America/Anchorage -> America/Nome
+  (same clocks) 02195 Petersburg Borough, AK: America/Anchorage -> America/Sitka
+  (same clocks) 02198 Prince of Wales-Hyder Census Area, AK: America/Anchorage -> America/Sitka
+  (same clocks) 02220 Sitka City and Borough, AK: America/Anchorage -> America/Sitka
+  (same clocks) 02230 Skagway Municipality, AK: America/Anchorage -> America/Juneau
+  (same clocks) 02275 Wrangell City and Borough, AK: America/Anchorage -> America/Sitka
+  (same clocks) 02282 Yakutat City and Borough, AK: America/Anchorage -> America/Yakutat
+  (same clocks) 18019 Clark County, IN: America/Indiana/Indianapolis -> America/Kentucky/Louisville
+  (same clocks) 18025 Crawford County, IN: America/Indiana/Indianapolis -> America/Indiana/Marengo
+  (same clocks) 18027 Daviess County, IN: America/Indiana/Indianapolis -> America/Indiana/Vincennes
+  (same clocks) 18029 Dearborn County, IN: America/Indiana/Indianapolis -> America/New_York
+  (same clocks) 18037 Dubois County, IN: America/Indiana/Indianapolis -> America/Indiana/Vincennes
+  (same clocks) 18043 Floyd County, IN: America/Indiana/Indianapolis -> America/Kentucky/Louisville
+  (same clocks) 18061 Harrison County, IN: America/Indiana/Indianapolis -> America/Kentucky/Louisville
+  (same clocks) 18083 Knox County, IN: America/Indiana/Indianapolis -> America/Indiana/Vincennes
+  (same clocks) 18101 Martin County, IN: America/Indiana/Indianapolis -> America/Indiana/Vincennes
+  (same clocks) 18115 Ohio County, IN: America/Indiana/Indianapolis -> America/New_York
+  (same clocks) 18123 Perry County, IN: America/Chicago -> America/Indiana/Tell_City
+  (same clocks) 18125 Pike County, IN: America/Indiana/Indianapolis -> America/Indiana/Petersburg
+  (same clocks) 18131 Pulaski County, IN: America/Indiana/Indianapolis -> America/Indiana/Winamac
+  (same clocks) 18149 Starke County, IN: America/Chicago -> America/Indiana/Knox
+  (same clocks) 18155 Switzerland County, IN: America/Indiana/Indianapolis -> America/Indiana/Vevay
+  (same clocks) 21111 Jefferson County, KY: America/New_York -> America/Kentucky/Louisville
+  (same clocks) 21231 Wayne County, KY: America/New_York -> America/Kentucky/Monticello
+  (same clocks) 38057 Mercer County, ND: America/Chicago -> America/North_Dakota/Beulah
+  (same clocks) 38059 Morton County, ND: America/Chicago -> America/North_Dakota/New_Salem
+  (same clocks) 38065 Oliver County, ND: America/Chicago -> America/North_Dakota/Center
+
+Counties split by a zone line (19 overrides):
+  01017 Chambers County, AL: county America/Chicago, override America/New_York  (~184 km2, 8 pts)
+  01081 Lee County, AL: county America/Chicago, override America/New_York  (~335 km2, 7 pts)
+  01113 Russell County, AL: county America/Chicago, override America/New_York  (~176 km2, 77 pts)
+  04001 Apache County, AZ: county America/Denver, override America/Phoenix  (~11076 km2, 182 pts)
+  04005 Coconino County, AZ: county America/Phoenix, override America/Denver  (~13192 km2, 1781 pts)
+  04017 Navajo County, AZ: county America/Phoenix, override America/Denver  (~10230 km2, 309 pts)
+  12037 Franklin County, FL: county America/New_York, override America/Chicago  (~27 km2, 64 pts)
+  12045 Gulf County, FL: county America/Chicago, override America/New_York  (~374 km2, 358 pts)
+  16049 Idaho County, ID: county America/Los_Angeles, override America/Boise  (~6483 km2, 1251 pts)
+  31031 Cherry County, NE: county America/Denver, override America/Chicago  (~5916 km2, 22 pts)
+  32007 Elko County, NV: county America/Los_Angeles, override America/Denver  (~27 km2, 9 pts)
+  38025 Dunn County, ND: county America/Denver, override America/Chicago  (~1188 km2, 460 pts)
+  38053 McKenzie County, ND: county America/Chicago, override America/Denver  (~3118 km2, 232 pts)
+  38085 Sioux County, ND: county America/Chicago, override America/Denver  (~652 km2, 345 pts)
+  41045 Malheur County, OR: county America/Boise, override America/Los_Angeles  (~5316 km2, 64 pts)
+  46021 Campbell County, SD: county America/Chicago, override America/Denver  (~17 km2, 47 pts)
+  46031 Corson County, SD: county America/Denver, override America/Chicago  (~19 km2, 58 pts)
+  46117 Stanley County, SD: county America/Denver, override America/Chicago  (~727 km2, 108 pts)
+  02016 Aleutians West Census Area, AK: county America/Adak, override America/Nome  (~6621 km2, 604 pts)
+
+
+Zone-line bands (--border-km 1.0): 234 overrides, 26,181 points
+Border slivers not given their own override: 133 (covered by the zone-line bands). Largest shown;
+most are outline misalignment, but a real piece under ~1.5 km wide would land here too.
+  32007 Elko County, NV: 151 cells of America/Boise
+  32003 Clark County, NV: 132 cells of America/Phoenix
+  46041 Dewey County, SD: 83 cells of America/Chicago
+  38037 Grant County, ND: 82 cells of America/North_Dakota/New_Salem
+  04011 Greenlee County, AZ: 55 cells of America/Denver
+  49023 Juab County, UT: 50 cells of America/Los_Angeles
+  04015 Mohave County, AZ: 47 cells of America/Los_Angeles
+  48229 Hudspeth County, TX: 45 cells of America/Chicago
+  35037 Quay County, NM: 45 cells of America/Chicago
+  18149 Starke County, IN: 34 cells of America/Indiana/Winamac
+  16049 Idaho County, ID: 34 cells of America/Denver
+  16073 Owyhee County, ID: 29 cells of America/Los_Angeles
+  31171 Thomas County, NE: 26 cells of America/Denver
+  48109 Culberson County, TX: 25 cells of America/Denver
+  16079 Shoshone County, ID: 25 cells of America/Denver
+
+Known points (answered from the files just written):
+  ok    Dutch Harbor (PADU)      America/Nome                     Aleutians West Census Area, AK
+  ok    St. Paul Is. (PASN)      America/Nome                     Aleutians West Census Area, AK
+  ok    Adak (PADK)              America/Adak                     Aleutians West Census Area, AK
+  ok    Window Rock, AZ          America/Denver                   Apache County, AZ
+  ok    Kayenta, AZ              America/Denver                   Navajo County, AZ
+  ok    Kykotsmovi, AZ (Hopi)    America/Phoenix                  Navajo County, AZ
+  ok    Page, AZ                 America/Phoenix                  Coconino County, AZ
+  ok    Flagstaff (KFLG)         America/Phoenix                  Coconino County, AZ
+  ok    Boise (KBOI)             America/Boise                    Ada County, ID
+  ok    Ontario, OR              America/Boise                    Malheur County, OR
+  ok    Grangeville, ID          America/Los_Angeles              Idaho County, ID
+  ok    Port St. Joe, FL         America/New_York                 Gulf County, FL
+  ok    Wewahitchka, FL          America/Chicago                  Gulf County, FL
+  ok    El Paso (KELP)           America/Denver                   El Paso County, TX
+  check Fort Pierre, SD          America/Denver                   Stanley County, SD
+  ok    Honolulu (PHNL)          Pacific/Honolulu                 Honolulu County, HI
+  ok    Pikeville TN (Bledsoe)   America/Chicago                  Bledsoe County, TN
+  ok    Valentine NE (Cherry)    America/Chicago                  Cherry County, NE
+  ok    Apalachicola FL (Franklin) America/New_York                 Franklin County, FL
+  ok    Phenix City AL (observed) America/New_York                 Russell County, AL
+  ok    West Wendover NV (observed) America/Denver                   Elko County, NV
