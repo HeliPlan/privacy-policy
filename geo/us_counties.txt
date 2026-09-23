@@ -221,11 +221,11 @@ GEOID|ST|NAME|TZ
 06065|CA|Riverside County|America/Los_Angeles
 06067|CA|Sacramento County|America/Los_Angeles
 06069|CA|San Benito County|America/Los_Angeles
-06071|CA|San Bernardino County|America/Los_Angeles
+06071|CA|San Bernardino Cnty|America/Los_Angeles
 06073|CA|San Diego County|America/Los_Angeles
 06075|CA|San Francisco County|America/Los_Angeles
 06077|CA|San Joaquin County|America/Los_Angeles
-06079|CA|San Luis Obispo County|America/Los_Angeles
+06079|CA|SLO County|America/Los_Angeles
 06081|CA|San Mateo County|America/Los_Angeles
 06083|CA|Santa Barbara County|America/Los_Angeles
 06085|CA|Santa Clara County|America/Los_Angeles
